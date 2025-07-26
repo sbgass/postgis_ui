@@ -1,5 +1,0 @@
-Bugs: transformed_geometries are not persisted in map or Database 
-    - On Apply: clear DB, session_state, and write results to sidebar, db, session_state
-    - "last_active_drawing" instead of all_drawings synced to DB. Only clear DB when Apply button is clicked. 
-Features: Draw geom on map from WKT. 
-    - New text box and button in sidebar before rendering map. Adds to db, session_state. 
