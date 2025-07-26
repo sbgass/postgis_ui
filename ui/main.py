@@ -14,7 +14,7 @@ from model import SpatialRecord, Base
 
 # ———————————————— Configure & connect to PostGIS
 st.set_page_config(
-    page_title="PostGIS Explorer",
+    page_title="PostGIS Sandbox",
     page_icon="🗺️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -43,7 +43,7 @@ def init_db_session():
 
 ### ————————————————
 status_bar = st.container()
-st.title("🗺️ PostGIS Explorer")
+st.title("🗺️ PostGIS Sandbox")
 st.markdown("""
 Draw points or polygons on the map below, then enter any PostGIS‑SQL 
 in the box and hit **Apply** to see the transformed geometry.
