@@ -1,0 +1,3 @@
+Bugs: transformed_geometries are not persisted in map or Database 
+Features: Draw geom on map from WKT. 
+Feature: support boolean queries, e.g. st_within and st_intersects
